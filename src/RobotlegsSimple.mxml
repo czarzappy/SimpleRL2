@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:WindowedApplication xmlns:fx="http://ns.adobe.com/mxml/2009" 
+					   xmlns:s="library://ns.adobe.com/flex/spark" 
+					   xmlns:mx="library://ns.adobe.com/flex/mx"
+					   xmlns:rl2="robotlegs.bender.mxml.*"
+					   xmlns:mvcs="robotlegs.bender.bundles.mvcs.*"
+					   xmlns:simple="simple.*"
+					   xmlns:view="simple.shell.view.*" xmlns:shell="simple.shell.*" xmlns:content="simple.shell.view.content.*">
+	<fx:Declarations>
+		<rl2:ContextBuilderTag>
+			<mvcs:MVCSBundle/>
+			<shell:SimpleConfig/>
+		</rl2:ContextBuilderTag>
+	</fx:Declarations>
+	<content:ButtonContainer x="30" y="50"/>
+	<content:TextContainer x="30" y="90"/>
+	<content:ScrollbarContainer x="0" y="0"/>
+</s:WindowedApplication>
